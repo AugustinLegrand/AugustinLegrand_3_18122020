@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    height: 100%;
+    max-height: 100%;
+}
+
+/*
+    RESPONSIVE - DESIGN MOBILE
+    < 767px 
+*/
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    min-width: 320px;
+}
+
+.header__logo {
+    padding: 15px;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(224, 224, 224);
+    width: 100%;
+    padding: 15px;
+}
+
+.location__city {
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.main {
+    min-width: 320px;
+}
+
+/* Exporer */
+
+.expore {
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+.expore__title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.expore__description {
+    color: rgb(110, 110, 110);
+    margin-bottom: 15px;
+}
+
+.expore__button {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-decoration: none;
+    margin-bottom: 15px;
+    padding: 15px;
+    min-width: 194px;
+    background: linear-gradient(#FF79DA, #9356DC);
+    border-color: #FF79DA;
+    border-radius: 2rem 2rem 2rem 2rem;
+    outline: none;
+}
+
+.operation {
+    padding: 15px;
+}
+
+.operation__title {
+    margin-top: 15px;
+}
+
+.operation__list {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.operation__item {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 1rem 1rem 1rem 1rem;
+    width: 300px;
+    max-width: 300px;
+}
+
+.operation__item--number {
+    position: relative;
+    left: -30px;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    background-color: #9356DC;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.operation__item--list {
+    display: flex;
+    justify-items: start;
+}
+
+.operation__item--text {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.restaurants {
+    margin-top: 15px;
+    background-color: rgb(230, 230, 230);
+    padding-bottom: 15px;
+}
+
+.restaurants__title {
+    padding: 15px;
+}
+
+.restaurants__list {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.restaurant__item {
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin: 15px;
+    height: 256.344px;
+}
+
+
+.restaurant__item:first-child, .restaurant__item:nth-child(2) {
+    padding-top: 0;
+}
+
+.restaurant__item--background {
+    border-radius: 1rem 1rem 0 0;
+    object-fit: cover;
+    width: 296px;
+    height: 197.344px;
+}
+
+.restaurant__item--new {
+    position: relative;
+    top: 3em;
+    left: 11.5em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 5px;
+    background-color: rgb(155, 197, 155);
+    border-color: rgb(155, 197, 155);
+    color: rgb(37, 68, 37);
+    width: 100px;
+    border-radius: 5px;
+}
+
+.restaurant__footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    padding: 15px;
+    background-color: #FFF;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.restaurant__footer--title {
+    font-size: 1.0em;
+}
+
+.restaurant__footer--heart {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    font-size: 1.4em;
+}
+
+.footer {
+    padding: 15px;
+    background-color: rgb(70, 69, 69);
+}
+
+.footer__title {
+    margin-bottom: 15px;
+    color: #FFF;
+    font-style: italic;
+}
+
+.footer__link--list {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #FFF;
+    margin-bottom: 5px;
+}
+
+/*
+    RESPONSIVE - DESIGN TABLETTE
+    > 768 - 1023px 
+*/
+
+
+/*
+    RESPONSIVE - DESIGN TABLETTE 
+    > 1024px - 1366px
+*/
+@media only screen and (min-width: 1024px) {
+
+}
