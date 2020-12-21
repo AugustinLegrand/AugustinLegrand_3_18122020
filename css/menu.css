@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    height: 100%;
+    max-height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.header__link {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size: 1.2em;
+}
+
+.header__logo {
+    display: flex;
+    flex: 1;
+    text-align: center;
+}
+
+
+.main__background {
+    object-fit: cover;
+    width: 100%;
+}
+
+.menu {
+    padding: 15px;
+    position: relative;
+    top: -3em;
+    background-color: rgb(246, 245, 245);
+    border-radius: 3em 3em 0 0;
+}
+
+.menu__header {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.menu__header--title {
+    font-style: italic;
+}
+
+.menu__header--heart {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+.entrance__title {
+    width: 50px;
+    opacity: 0.6;
+    border-bottom: 5px solid rgb(113, 214, 206);
+    
+}
+
+.entrance__list {
+    margin-top: 20px;
+}
+
+.entrance__item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+    padding: 15px;
+    border-radius: 1rem 1rem 1rem 1rem;
+    margin-top: 15px;
+}
+
+.entrance__header {
+}
+
+.entrance__header--title {
+    font-size: 1em;
+}
+
+.entrance__header--description {
+    font-size: 0.8em;
+}
+
+.entrance__footer--price {
+    display: flex;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+.entrance__footer {
+    display: flex;
+    justify-content: center;
+}
+
+.entrance__footer--validate {
+    display: none;
+}
+
+/*
+ANIMATION ENTRANCE_ITEM
+*/
+
+.entrance__item:focus > .entrance__footer--validate {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
