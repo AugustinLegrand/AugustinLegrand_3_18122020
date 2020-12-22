@@ -65,6 +65,10 @@ html {
     margin-right: 10px;
 }
 
+/*
+    ENTREE
+*/
+
 .entrance__title {
     width: 50px;
     opacity: 0.6;
@@ -83,6 +87,7 @@ html {
     padding: 15px;
     border-radius: 1rem 1rem 1rem 1rem;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .entrance__header {
@@ -119,4 +124,150 @@ ANIMATION ENTRANCE_ITEM
     display: flex;
     align-self: center;
     justify-self: center;
+}
+
+/*
+    PLATS
+*/
+
+.dishes__title {
+    width: 50px;
+    opacity: 0.6;
+    border-bottom: 5px solid rgb(113, 214, 206);
+    
+}
+
+.dishes__list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dishes__item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+    padding: 15px;
+    border-radius: 1rem 1rem 1rem 1rem;
+    margin-top: 15px;
+}
+
+.entrance__header {
+}
+
+.dishes__header--title {
+    font-size: 1em;
+}
+
+.dishes__header--description {
+    font-size: 0.8em;
+}
+
+.dishes__footer--price {
+    display: flex;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+.dishes__footer {
+    display: flex;
+    justify-content: center;
+}
+
+.dishes__footer--validate {
+    display: none;
+}
+
+/*
+ANIMATION ENTRANCE_ITEM
+*/
+
+.dishes__item:focus > .dishes__footer--validate {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+/*
+    DESSERTS
+*/
+
+.deserts__title {
+    width: 50px;
+    opacity: 0.6;
+    border-bottom: 5px solid rgb(113, 214, 206);
+    
+}
+
+.deserts__list {
+    margin-top: 20px;
+}
+
+.deserts__item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+    padding: 15px;
+    border-radius: 1rem 1rem 1rem 1rem;
+    margin-top: 15px;
+}
+
+.entrance__header {
+}
+
+.deserts__header--title {
+    font-size: 1em;
+}
+
+.deserts__header--description {
+    font-size: 0.8em;
+}
+
+.deserts__footer--price {
+    display: flex;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+.deserts__footer {
+    display: flex;
+    justify-content: center;
+}
+
+.deserts__footer--validate {
+    display: none;
+}
+
+/*
+ANIMATION ENTRANCE_ITEM
+*/
+
+.deserts__item:focus > .deserts__footer--validate {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+/*
+    FOOTER
+*/
+.footer {
+    padding: 15px;
+    background-color: rgb(70, 69, 69);
+}
+
+.footer__title {
+    margin-bottom: 15px;
+    color: #FFF;
+    font-style: italic;
+}
+
+.footer__link--list {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #FFF;
+    margin-bottom: 5px;
 }
