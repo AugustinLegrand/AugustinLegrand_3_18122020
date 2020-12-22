@@ -12,6 +12,10 @@ html {
     max-height: 100%;
 }
 
+body {
+    background-color: rgb(246, 245, 245);
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -39,6 +43,7 @@ html {
 }
 
 .menu {
+
     padding: 15px;
     position: relative;
     top: -3em;
@@ -63,6 +68,31 @@ html {
     justify-content: center;
     font-size: 1.2em;
     margin-right: 10px;
+}
+
+.menu__footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/*
+    Button
+*/
+.order__button {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-decoration: none;
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 180px;
+    background: linear-gradient(#FF79DA, #9356DC);
+    border-color: #FF79DA;
+    border-radius: 2rem 2rem 2rem 2rem;
+    outline: none;
+    color: #FFF;
 }
 
 /*
