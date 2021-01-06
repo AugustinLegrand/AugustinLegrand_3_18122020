@@ -1,0 +1,51 @@
+@keyframes rotate {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes confirm {
+    from {
+      width: 0;
+    }
+    to {
+      width: 78px;
+    }
+}
+
+@keyframes loader {
+    100% {
+        display: none;
+        z-index: -1000;
+    }
+}
+
+@keyframes menuitem {
+    from {
+        transform: translateY(5rem);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateY(-0.1rem);
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@for $i from 1 to 8 {
+    .delay-#{$i} {
+        animation-delay: #{$i/10}s;
+    }
+}
+
+/**
+ANIMATION LOADER
+**/

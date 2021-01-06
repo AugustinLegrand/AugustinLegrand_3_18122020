@@ -214,6 +214,21 @@ html {
     font-size: 1.4em;
 }
 
+.heart--animation {
+    display: none;
+}
+
+.restaurant__footer--heart:hover {
+    display: none;
+}
+.restaurant__footer--heart:hover ~ .heart--animation {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    font-size: 1.4em;
+    color: #FF79DA;
+}
+
 .footer {
     padding: 15px;
     background-color: rgb(70, 69, 69);
@@ -236,16 +251,17 @@ html {
     margin-bottom: 5px;
 }
 
-/*
-    RESPONSIVE - DESIGN TABLETTE
-    > 768 - 1023px 
-*/
-
-
-/*
-    RESPONSIVE - DESIGN TABLETTE 
-    > 1024px - 1366px
-*/
 @media only screen and (min-width: 1024px) {
+    .footer__title {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .footer__link--list {
+        display: flex;
+        align-content: center;
+    }
 
 }
