@@ -135,7 +135,7 @@ body {
     transition: .5s;
     overflow: hidden;
 }
-.menu__item--content  {
+.menu__item--content h2 {
     overflow: hidden;
     text-overflow: ellipsis;
 }
