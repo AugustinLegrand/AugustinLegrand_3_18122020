@@ -135,7 +135,14 @@ body {
     transition: .5s;
     overflow: hidden;
 }
-
+.menu__item--content  {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.menu__item--content p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 .menu__item--content {
     display: flex;
     align-content: center;
@@ -144,8 +151,8 @@ body {
     padding: 15px;
     font-size: 0.68em;
     flex: 2;
-    overflow: hidden;
     white-space: nowrap;
+    overflow: hidden;
     text-overflow: ellipsis;
 }
 
@@ -163,6 +170,7 @@ body {
     background-color: rgb(137, 212, 137);
     border-radius: 0 1rem 1rem 0;
     transition: 1s ease-in-out;
+    
 }
 
 .menu__item--checked {
