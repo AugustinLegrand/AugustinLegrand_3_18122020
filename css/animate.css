@@ -75,27 +75,41 @@ ANIMATION LOADER
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: loader 3s;
+  animation: loader 1.5s;
   animation-delay: 1.75s;
   animation-fill-mode: both;
-}
-.loader__containers {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.loader__containers .loader__item {
-  background-color: red;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  margin: 15px;
 }
 
 @keyframes loader {
   100% {
     opacity: 0;
     z-index: -1000;
+  }
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #854747 transparent #620505 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
 
